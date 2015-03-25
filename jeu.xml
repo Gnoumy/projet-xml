@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE jeuxVidéos SYSTEM "jeux.dtd">
+
+<jeuxVidéos>
+	<test>
+		<titre>La journaliste</titre>
+		<date>25/03/2015</date>
+		<dateSortie>25/03/2015</dateSortie>
+		<consoles>
+			<console id="c1">PC</console>
+			<console id="c2">PS4</console>
+		</consoles>
+		<editeur>Marc Dorcel</editeur>
+		<developpeurs>Anna Polina</developpeurs>
+		<type>Simulation</type>
+		<multijoueur>Oui</multijoueur>
+		<version>1.69</version>
+		<classification>Pegi18</classification>
+		<contenu>Bla bla bla bla bla lorem ipsum</contenu>
+		<image>http://www.dorcelstore.com/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/8/0/80658_recto.jpg</image>
+		<lienPromotion>http://www.dorcelvision.com/studios/Marc_Dorcel/4162/La_journaliste</lienPromotion>
+		&comment;
+	</test>
+</jeuxVidéos>
+
+
+

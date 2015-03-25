@@ -1,0 +1,28 @@
+<!ENTITY % commentaires SYSTEM "comment.dtd">
+<!ENTITY comment SYSTEM "comment.xml">
+<!ELEMENT jeuxVidéos (test*)>
+<!ELEMENT test (titre, date, dateSortie, consoles, editeur, developpeur, types, multijoueur+, version, classification, contenu, image, lienPromotion, commentaires)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT dateSortie (#PCDATA)>
+<!ELEMENT consoles (console+)>
+<!ELEMENT console (PS4|PS3|XboxOne|Xbox360|mobile|PC)>
+<!ELEMENT editeur (#PCDATA)>
+<!ELEMENT developpeur (#PCDATA)>
+<!ELEMENT types (type+)>
+<!ELEMENT type (action|plateforme|aventure|simulation|fps|course)>
+<!ELEMENT multijoueur (oui|non)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT classification (#PCDATA)>
+<!ELEMENT contenu (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT lienPromotion (#PCDATA)>
+<!ATTLIST console id ID #IMPLIED>
+
+
+<!-- 
+4joueurs|12joueurs|solo
+-12|-16|-18
+
+-->
+%commentaires;

@@ -1,0 +1,5 @@
+<!ELEMENT commentaires (commentaire*)>
+<!ELEMENT commentaire (auteur, dateCommentaire, contenuCommentaire)>
+<!ELEMENT auteur (#PCDATA)>
+<!ELEMENT dateCommentaire (#PCDATA)>
+<!ELEMENT contenuCommentaire (#PCDATA)>

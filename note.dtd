@@ -1,0 +1,8 @@
+<!ELEMENT notes (note*)>
+<!ELEMENT note (graphisme, scenario, dureeDeVie, difficulte, bandeSon, gamePlay)>
+<!ELEMENT graphisme (#PCDATA)>
+<!ELEMENT scenario (#PCDATA)>
+<!ELEMENT dureeDeVie (#PCDATA)>
+<!ELEMENT difficulte (#PCDATA)>
+<!ELEMENT bandeSon (#PCDATA)>
+<!ELEMENT gamePlay (#PCDATA)>
